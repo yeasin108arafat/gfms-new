@@ -82,6 +82,107 @@ p {
 .nm {
     margin: 0 !important;
 }
+.text-right {
+    text-align: right;
+}
 
+/*------------------------------------------------------------
+                LOGIN INTEREFACE START 
+-------------------------------------------------------------*/
+.user-layout-content{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.user-layout-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.user-form-header a {
+    margin-bottom: 48px;
+}
+.user-layout-left h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+.user-layout-left h2 span {
+    color: var(--orange);
+    font-size: 42px;
+    line-height: 20px;
+}
+.user-layout-left p {
+    font-size: 16px;
+    color: #656565;
+    padding-top: 8px;
+    padding-bottom: 48px;
+    max-width: 360px;
+    margin: auto;
+    line-height: 23px;
+    font-weight: 500;
+}
+.user-layout-left form {
+    min-width: 400px;
+    margin: auto;
+    width: 100%;
+}
+.user-layout-left input {
+    width: 100%;
+    border: 1px solid #F5F5F5;
+    font-size: 16px;
+    color: #000;
+    height: 60px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    padding: 0 26px;
+    background: #F8F8F8;
+}
+.user-layout-left input:focus {
+    outline: none;
+    border-color: #ABABAB;
+    color: #111;
+}
+.password-wrapper {
+    position: relative;
+}
+.password-wrapper input[type="password"] {
+    width: 100%;
+    padding-right: 30px;
+}
+.eye-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+.forgot-pass a {
+    color: #ED7D31;
+    font-size: 15px;
+    font-weight: 600;
+}
+.user-layout-left input[type="submit"] {
+    background: #111;
+    color: #fff;
+    border: none;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.user-layout-left  input[type="submit"]:hover {
+    background: #393536;
+}
+.user-layout-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-/*---------------------------------Start Layout Area---------------------------*/
+/*------------------------------------------------------------
+                LOGIN INTEREFACE END 
+-------------------------------------------------------------*/
