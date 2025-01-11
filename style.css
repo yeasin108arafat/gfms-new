@@ -1,0 +1,87 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Golden Frog Management System (GFMS)
+    Template URI: ---
+    Description: This is the description of website
+    Author: Yeasin Arafat
+    Author URL: http://yeasinarafat.rf.gd
+    Version: 1.0
+-----------------------------------------------------------------------------------*/
+
+/* Global Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------------------------------------
+                1.  Typhography
+---------------------------------------------*/
+
+:root {
+    --orange: #ED7D31;
+    --black: #111111;
+    --F5: #F5F5F5;
+    --gray: #ABABAB;
+    --light-gray: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+button:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.np {
+    padding: 0 !important;
+}
+
+.nm {
+    margin: 0 !important;
+}
+
+
+/*---------------------------------Start Layout Area---------------------------*/
