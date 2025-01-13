@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    // TOGGLE PASSWORD VISIBILITY
+    // TOGGLE PASSWORD VISIBILITY ----------------------------------------------
     $('#togglePassword').on('click', function () {
         // Toggle the type of the password field
         const passwordField = $('#password');
@@ -14,7 +14,7 @@ $(document).ready(function () {
         );
     });
 
-    // TOGGLE SIDEBAR MENU
+    // TOGGLE SIDEBAR MENU -----------------------------------------------------
     $('.menu-collaps-btn').click(function () {
         const $this = $(this);
       
@@ -28,11 +28,11 @@ $(document).ready(function () {
 
         $('.sidebar-menu a span').toggleClass('hide-menu-text');
         $('.sidebar-area').toggleClass('sidebar-collapsed');
-        $('.main-header').toggleClass('decrese-header-width');
+        $('.main-header, .dashboard-area').toggleClass('change-left-padding');
     });
 
 
-    //HEADER RIGHT DROP BUTTON MENY
+    //HEADER RIGHT DROP BUTTON MENU --------------------------------------------
     $('.drop-btn-wrap > button').on('click', function(event) {
         event.stopPropagation();
         const $toggleDiv = $(this).next('.drop-menu');
@@ -45,7 +45,7 @@ $(document).ready(function () {
         }
     });
 
-    // AUTO GIVE CLASS TO SIDEBAR MENU
+    // AUTO GIVE CLASS TO SIDEBAR MENU ------------------------------------------
     $('.sidebar-menu ul li.active-menu').each(function () {
         $(this).next('li').addClass('active-menu-bottom-item');
         $(this).prev('li').addClass('active-menu-top-item');

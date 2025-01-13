@@ -170,6 +170,7 @@
     </div>
   </header>
 
+  <!-- OFF CANVAS MENY FOR TIPS -->
   <div class="offcanvas offcanvas-end tips-canvas" tabindex="-1" id="offcanvasRight"
     aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header">
@@ -182,7 +183,8 @@
         <div class="card" style="width: 100%;">
           <img src="images/img-announcement.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title and make up
+              the bulk of the card's content.</p>
             <a href="#" class="btn btn-sm btn-primary mt-2">View Details</a>
           </div>
         </div>
@@ -223,12 +225,12 @@
             <img src="images/icn/home.svg" alt=""> <span>Dashboard</span>
           </a>
         </li>
-        <li>
+        <li class="active-menu">
           <a href="#">
             <img src="images/icn/buyer-list.svg" alt=""> <span>Buyer List</span>
           </a>
         </li>
-        <li class="active-menu">
+        <li>
           <a href="#">
             <img src="images/icn/add-new.svg" alt=""> <span>Add New Sample</span>
           </a>
@@ -246,6 +248,90 @@
   </sidebar>
   <!--========================================================
 					SIDEBAR END 
+	=========================================================-->
+  <!--========================================================
+					DASHBOARD START 
+	=========================================================-->
+  <section class="dashboard-area">
+    <div class="dashboard-content">
+      <!-- PAGE TITLE AND BREADCRUMB -->
+      <div class="breadcrumb-and-page-title-wrap">
+        <p><a href="#">Dashboard</a> <img src="images/icn/angle-right.svg" alt=""> <span>Buyer List</span></p>
+        <h2>Buyer List</h2>
+      </div>
+      <!-- DASHBOARD WIDGETS -->
+      <div class="dashboard-widgets-wrapper">
+        <!-- SINGLE WIDGET -->
+        <div class="single-widget">
+          <div class="widget-title d-flex justify-content-between align-items-center">
+            <p>Showing last <b>30 day's</b> reports</p>
+            <form action="" class="filter-form d-flex">
+              <div class="single-input-wrap">
+                <div class="select-wrap">
+                  <select name="" id="">
+                    <option value="">Last 30 day</option>
+                    <option value="">Last 60 day</option>
+                    <option value="">Last 90 day</option>
+                    <option value="">All</option>
+                  </select>
+                  <span class="select-angle">
+                    <img src="images/icn/caret-down-fill.svg" alt="">
+                  </span>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-sm common-btn">Search</button>
+            </form>
+          </div>
+          <table class="table table-responsive border-less-table">
+            <thead>
+              <tr>
+                <th>logo</th>
+                <th>Buyer Name</th>
+                <th>Total</th>
+                <th>Done</th>
+                <th>Pending</th>
+                <th>Late</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                    <img src="images/client/Geox-Logo.svg" alt="">
+                </td>
+                <td class="bold-it"><a href="6.client_details.html">Geox</a></td>
+                <td>15</td>
+                <td>10</td>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>
+                    <img src="images/client/wittchen.svg" alt="">
+                </td>
+                <td class="bold-it"><a href="6.client_details.html">Wittchen</a></td>
+                <td>15</td>
+                <td>10</td>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>
+                    <img src="images/client/zoe.png" alt="">
+                </td>
+                <td class="bold-it"><a href="6.client_details.html">Zoe</a></td>
+                <td>15</td>
+                <td>10</td>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========================================================
+					DASHBOARD END 
 	=========================================================-->
 
   <!--Normalizer-->
